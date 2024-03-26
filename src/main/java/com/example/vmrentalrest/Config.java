@@ -25,14 +25,4 @@ public class Config {
         return new BCryptPasswordEncoder();
     }
 
-//    @Bean
-//    public InMemoryUserDetailsManager userDetailsService(PasswordEncoder passwordEncoder) {
-//        UserDetails userDetails = User.withUsername("admin")
-//                .password(passwordEncoder.encode("admin123"))
-//                .roles(Role.ADMINISTRATOR.name())
-//                .build();
-//        return new InMemoryUserDetailsManager(userDetails);
-//    }
-
-
 }
