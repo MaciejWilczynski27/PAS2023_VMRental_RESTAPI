@@ -1,7 +1,7 @@
 Spring Boot CRUD web application which allows users to rent virtual machines.(I was responsible for the backend part of it)
 
 - uses MongoDB as it`s main datasource with transactions.
-- authorisation is realised via JWT token credentials, if user logs out their token is added to the blacklist.
+- authorization is realised via JWT token credentials, if user logs out their token is added to the blacklist.
 - uses different profile for tests(both integration and unit ones).
 - password is kept encoded using BCrypt
 - REST API uses DTOs to both receive and send data, so the sensitive data like password is never sent to the client
